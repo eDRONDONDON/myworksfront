@@ -1,0 +1,129 @@
+body {
+    font-family: "Montserrat","Lato","OpenSans" ,sans-serif;
+}
+.header-content {
+    background-image: url('../img/bg1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.header-content-text {
+    position: absolute;
+    bottom: 145px;
+    left: 82px;
+}
+.header-text-logo {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+.header-small-text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    padding: 12px 0 28px 0;
+}
+.header-logoshape {
+    border: 1px solid #fff;
+    display: flex;
+}
+.header-logoshape-left-text {
+    color: #f1ad1d;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 45px 32px;
+    background: #fff;
+}
+.header-logoshape-right-text {
+    color: #fff;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 48px 56px 45px 26px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.section-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 110px 0px;
+}
+.title {
+    color: #333;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 0 80px;
+    text-transform: uppercase;
+}
+.paragraf {
+    color: #4d4943;
+    font-size: 17px;
+    padding: 35px 0 0 0;
+}
+.section-line {
+    background-color: #f1ad1d;
+    width: 60px;
+    height: 3px;
+    margin: 60px 0;
+}
+.bg-property{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.company-speed-slogan {
+    background-image: url('../img/bg2.jpg');
+    height: 380px;
+}
+.company-nature-slogan {
+    background-image: url('../img/bg3.jpg');
+        height: 380px;
+}
+.company-nature-title,.water-nature-title,.speed-slogan-title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.name-partners {
+    color: #fff;
+    display: flex;
+    align-content: space-around;
+}
+.partner {
+    padding: 0 54px;
+}
+.water-nature-slogan {
+    background-image: url('../img/bg4.jpg');
+    height: 485px;
+}
+.water-nature-content-small-text {
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.text-yellow-link {
+    color: #f1ad1d;
+    font-size: 18px;
+    padding: 10px 0;
+    text-decoration: none;
+}
+.yellow-text {
+   color: #f1ad1d;
+}
+.section-white-line {
+    background-color: #fff;
+    width: 281px;
+    height: 3px;
+    margin: 44px 0px;
+}

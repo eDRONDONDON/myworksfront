@@ -1,0 +1,135 @@
+body {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+}
+.header {
+  width: 1100px;
+  margin: 49px auto 45px auto;
+}
+.clearfix:after{
+  clear:both;
+  content:'';
+  display: table;
+}
+.head-logo {
+  display: inline-block;
+}
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    width: 46px;
+    height: 44px;
+    background-position: -1px -1px;
+    float: left;
+}
+.text-logo {
+  display: inline-block;
+  font-family: Verdana;
+  color:#fff;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-left: 15px;
+  text-decoration: none;
+}
+.head-logo:hover .sprite {
+  width: 46px;
+  height: 44px;
+  background-position: -49px -1px;
+}
+.head-logo:hover .text-logo {
+  color: #f26522;
+}
+.contacts {
+  float: right;
+  font-family: Verdana;
+  color:#fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: right;
+}
+
+.main {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tour-fig {
+  float: left;
+  margin: 0 83px 58px 0;
+}
+.tour-fig:nth-child(3n) {
+  margin-right: 0;
+}
+.tour-fig a {
+  text-decoration: none;
+}
+.tour-fig img {
+  position: relative;
+  border: 2px solid;
+  border-image: linear-gradient(to bottom, white, black);
+  border-image-slice: 1;
+}
+.tour-fig figcaption {
+  font-family: Verdana, sans-serif;
+  color:#fff;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 22px;
+  text-align: center;
+}
+.tour-img-wrap{
+  position: relative;
+  overflow: hidden;
+}
+.promo-tooltip {
+    position: absolute;
+    bottom: -63px;
+    width: 311px;
+    background-color: #f26522;
+    height: 63px;
+    transition: all 0.4s linear;
+}
+.promo-price, .promo-details{
+  font-family: Verdana;
+  color:
+  #ffffff;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  float: left;
+  padding-top: 8px;
+  padding-left: 18px;
+}
+.promo-details {
+  float: right;
+  font-size: 14px;
+  padding: 27px 18px 17px 0;
+}
+.promo-details:after {
+  content: "\003e";
+  padding-left: 14px;
+}
+.tour-fig:hover .promo-tooltip {
+  bottom: 3px;
+}
+.tour-fig:hover figcaption {
+  color: #f26522;
+}
+
+.footer {
+  width: 1100px;
+  margin: 0 auto 20px auto;
+  font-family: Verdana, sans-serif;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+}

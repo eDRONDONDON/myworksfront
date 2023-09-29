@@ -1,0 +1,94 @@
+body{
+  background-image: url('../img/Background.jpg');
+  background-repeat: no-repeat;
+  width: 1197px;
+  height: 660px;
+}
+table{
+  position: absolute;
+  top: 22px;
+  left:24px;
+  width: 1140px;
+  height: 608px;
+  border-collapse: collapse;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Arimo,sans-serif;
+  background: #f2f2f2;
+}
+th,td{
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.27);
+}
+thead .even,tbody .even{
+  background:#e3e3e3;
+}
+thead{
+  font-size: 24px;
+}
+thead span{
+  background-color: #fafafa;
+  font-size: 14px;
+  font-weight: 700;
+}
+thead .plan{
+  font-size: 20px;
+}
+thead th:first-child{
+  width: 198px;
+  height: 112px;
+}
+.side:first-child{
+  background-color: #89d331;
+  color:  #ffffff;
+  font-size: 24px;
+  width: 198px;
+  height: 166px;
+  vertical-align: middle;
+}
+tbody .side.two{
+  background-color:#f04a56;
+}
+tbody .side.three{
+  background-color: #20807c;
+}
+tr .value{
+  display: inline-block;
+  font-size: 36px;
+  padding: 10px 0 10px 0;
+}
+tr .coin{
+  display: inline-block;
+  font-size: 18px;
+  vertical-align: super;
+}
+tbody span{
+  font-size: 14px;
+}
+.btn{
+display: inline-block;
+text-align:center;
+padding-top:10px;
+border:1px solid #2a2a2a;
+color: #ffffff;
+border-radius: 5px;
+font-family: Arimo,sans-serif;
+text-transform:uppercase;
+width: 144px;
+height: 41px;
+font-size: 16px;
+line-height:28px;
+font-weight: 400;
+box-shadow: 0 1px 0 0 #fff6ce;
+text-shadow: 0 1px 0 #fff;
+background-color: #414141;
+}
+.btn:hover, .btn:active{
+border:1px solid #000;
+cursor:pointer;
+color: #ffffff;
+box-shadow: 1px 1px 0 0 #rgba(40, 40, 40, 0.7);
+background-color: #169e12;
+}

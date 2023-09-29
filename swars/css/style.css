@@ -1,0 +1,45 @@
+body{
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+.container {
+    background: #000;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    perspective: 100px;
+    width: 100%;
+}
+.content {
+    color: #fcd000;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    perspective: 100px;
+    text-align: justify;
+    transform: rotateX(10deg);
+    width: 250px;
+}
+h1, p .name-episode{
+    padding: 10px;
+    text-transform: uppercase;
+}
+.text {
+    animation: text 30s infinite linear;
+    animation-iteration-count: infinite;
+    position: absolute;
+    text-align: center;
+}
+p {
+    padding: 10px;
+}
+@keyframes text {
+    from {
+        transform: rotateX(10deg) translateY(500px);
+    }
+    to {
+        transform: rotateX(10deg) translateY(-200px);
+
+    }
+}
