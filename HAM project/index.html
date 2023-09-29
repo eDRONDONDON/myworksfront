@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ham</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="js/general.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/works.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/jcarousel.js"></script>
+    <script type="text/javascript" src="js/jcarousel-master/dist/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="js/jcarousel-master/dist/jquery.jcarousel.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-content">
+                    <a href="" class="navbar-logo">
+                        <div class="navbar-logo-hexagon"><span class="navbar-logo-char">h</span></div>
+                        <span class="navbar-logo-text">the<span class="navbar-logo-header green-color">Ham</span></span>
+                    </a>
+                    <div class="navbar-menu">
+                        <ul>
+                            <li class="navbar-menu-item"><a class="navbar-menu-link active" href="#header">home</a>
+                            <li class="navbar-menu-item"><a class="navbar-menu-link" href="#header-content">about</a>
+                            <li class="navbar-menu-item"><a class="navbar-menu-link" href="#advantages">skills</a>
+                            <li class="navbar-menu-item"><a class="navbar-menu-link" href="#services">service</a>
+                            <li class="navbar-menu-item"><a class="navbar-menu-link" href="#works">work</a>
+                            <li class="navbar-menu-item"><a class="navbar-menu-link" href="#people">testimonial</a>
+                            <li class="navbar-menu-item"><a class="navbar-menu-link" href="#breaking-news">blog</a>
+                            <li class="navbar-menu-item"><a class="navbar-menu-link" href="#gallery">team</a>
+                            <li class="navbar-menu-item"><a class="navbar-menu-link" href="#footer">contact</a>
+                        </ul>
+                        <div class="navbar-menu-search">
+                            <div class="header-search-icon fas fa-search"></div>
+                            <form class="navbar-menu-form">
+                                <input class="navbar-menu-input" name="name" type="text" placeholder="">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="header-content" id="header-content">
+            <div class="container">
+                <h3 class="header-title">the ham is <span class="green-color">wordpress theme</span></h3>
+                <h2 class="header-slogan">we are creative</h2>
+                <h4 class="header-text">just buy and enjoy these awesome features</h4>
+                <div class="header-buttons">
+                    <div class="button-layer">
+                        <a class="button-with-layer green-background" href="#purchase">explore now</a>
+                    </div>
+                    <div class="button-layer modal-trigger">
+                        <a class="button-with-layer blue-background" href="">purchase now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="advantages" id="advantages">
+        <div class="advantage-block dark-blue-background">
+            <div class="advantages-line green-background"></div>
+            <div class="advantage-block-icon">
+                <img src="img/advantages/advantage-theme-icon.png" alt="">
+            </div>
+            <p class="advantage-block-title"><span class="green-color">different theme option</span></p>
+        </div>
+        <div class="advantage-block green-background">
+            <div class="advantages-line white-background"></div>
+            <div class="advantage-block-icon">
+                <img src="img/advantages/advantage-customizable-icon.png" alt="">
+            </div>
+            <p class="advantage-block-title"><span>fully customizable</span></p>
+        </div>
+        <div class="advantage-block dark-blue-background">
+            <div class="advantages-line green-background"></div>
+            <div class="advantage-block-icon">
+                <img src="img/advantages/advantage-support-icon.png" alt="">
+            </div>
+            <p class="advantage-block-title"><span class="green-color">unlimited support</span></p>
+        </div>
+        <div class="advantage-block green-background">
+            <div class="advantages-line white-background"></div>
+            <div class="advantage-block-icon">
+                <img src="img/advantages/advantage-devices-icon.png" alt="">
+            </div>
+            <p class="advantage-block-title"><span>responsive all devices</span></p>
+        </div>
+    </section>
+    <section class="our_sevices" id="services">
+        <div class="container">
+            <h2 class="section-title gray-color">Our Services</h2>
+            <div id="myTabContent" class="tab-content">
+                <ul id="myTab" class="midle-tabs">
+                    <li class="active">Web Design
+                    <li>Graphic Design
+                    <li>Online Support
+                    <li>App Design
+                    <li>Online Marketing
+                    <li>Seo Service
+                </ul>
+                <div class="tab-pane active">
+                    <img src="img/services-people/Step_proj_foto1.png" alt="">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eius et ex facere id, impedit laudantium minus molestiae omnis, quas soluta tempore temporibus unde? Aliquid ducimus obcaecati officiis quas quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, ad adipisci autem corporis, deleniti doloribus enim error excepturi expedita illum labore laborum magnam magni nisi non officiis possimus provident, sed!</span>
+                </div>
+                <div class="tab-pane ">
+                    <img src="img/services-people/Step_proj_foto2.png" alt="">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate delectus explicabo mollitia nam necessitatibus praesentium recusandae repellendus rerum sequi sit ut, vel. Cupiditate magni modi necessitatibus tempore vitae! Aspernatur, enim! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequatur, fuga iusto odio rem tempora voluptatem. Accusantium blanditiis dolor, doloremque eum ipsum laudantium nostrum quasi quibusdam soluta? Blanditiis consequuntur, recusandae.</span>
+                </div>
+                <div class="tab-pane">
+                    <img src="img/services-people/Step_proj_foto1.png" alt="">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eaque enim omnis sint! Accusamus aliquid assumenda eaque id itaque maxime nihil, nobis obcaecati odio, odit omnis quaerat quam quod vitae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt esse impedit nemo quis recusandae sunt temporibus! Dicta dignissimos dolore laboriosam libero, perferendis provident quis quisquam, sequi sit, suscipit tempora ut.</span>
+                </div>
+                <div class="tab-pane">
+                    <img src="img/services-people/Step_proj_foto2.png" alt="">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur deleniti dignissimos distinctio ipsum iusto natus numquam possimus temporibus. Aliquid animi autem cupiditate esse illo laudantium mollitia, perspiciatis rem voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aliquam at autem consequatur dicta, doloremque eaque fugiat laborum nisi pariatur placeat sint veritatis? Adipisci doloremque esse ipsa ipsum itaque?</span>
+                </div>
+                <div class="tab-pane">
+                    <img src="img/services-people/Step_proj_foto1.png" alt="">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid excepturi facilis impedit magnam magni. A animi consectetur, eum exercitationem inventore ipsum minus, nisi officia quam quo totam ullam veritatis voluptatibus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at cumque delectus distinctio, dolores error explicabo, facere, hic itaque labore magnam molestias odit officia perspiciatis quos reprehenderit sequi vero voluptas?</span>
+                </div>
+                <div class="tab-pane">
+                    <img src="img/services-people/Step_proj_foto2.png" alt="">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci alias dolor doloribus ea illum magnam minus, molestias nemo optio placeat possimus quas reiciendis repudiandae sequi voluptatibus voluptatum! Omnis, possimus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, alias iure labore maxime tempora veritatis voluptas voluptatum! Asperiores consequuntur doloremque eligendi in iure nemo porro repellendus reprehenderit, totam veniam voluptatum.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="purchase" id="purchase">
+        <div class="purchase-background-color">
+            <div class="container">
+                <h2 class="purchase-title green-color">everything is ready. just by and install now</h2>
+                <p class="purchase-text">Smooth reliable, responsive ready, perfect portfolio, unique blog layout and many
+                    many options for you
+                </p>
+                <div class="purchase-button modal-trigger">
+                    <div class="button-layer">
+                        <a class="button-with-layer green-background" href="#">purchase now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="works" id="works">
+        <div class="container">
+            <h2 class="section-title dark-gray-color">our amazing work</h2>
+            <ul class="works-menu">
+                <li class="works-menu-item"><a class="works-menu-link active" data-info="all" href="#">all</a>
+                <li class="works-menu-item"><a class="works-menu-link" data-info="graphic-design" href="#">graphic design</a>
+                <li class="works-menu-item"><a class="works-menu-link" data-info="web-design" href="#">web design</a>
+                <li class="works-menu-item"><a class="works-menu-link" data-info="landing-page" href="#">landing pages</a>
+                <li class="works-menu-item"><a class="works-menu-link" data-info="wordpress" href="#">wordpress</a>
+            </ul>
+            <div class="works-portfolios">
+                <div class="works-portfolio-item" data-info="graphic-design"><img src="img/works/graphic%20design/graphic-design1.jpg" alt=""></div>
+                <div class="works-portfolio-item" data-info="graphic-design"><img src="img/works/graphic%20design/graphic-design2.jpg" alt=""></div>
+                <div class="works-portfolio-item" data-info="graphic-design"><img src="img/works/graphic%20design/graphic-design3.jpg" alt=""></div>
+                <div class="works-portfolio-item" data-info="graphic-design"><img src="img/works/graphic%20design/graphic-design4.jpg" alt=""></div>
+                <div class="works-portfolio-item" data-info="graphic-design"><img src="img/works/graphic%20design/graphic-design5.jpg" alt=""></div>
+                <div class="works-portfolio-item" data-info="graphic-design"><img src="img/works/graphic%20design/graphic-design6.jpg" alt=""></div>
+                <div class="works-portfolio-item" data-info="graphic-design"><img src="img/works/graphic%20design/graphic-design7.jpg" alt=""></div>
+                <div class="works-portfolio-item" data-info="graphic-design"><img src="img/works/graphic%20design/graphic-design8.jpg" alt=""></div>
+                <div class="works-portfolio-item" data-info="graphic-design"><img src="img/works/graphic%20design/graphic-design9.jpg" alt=""></div>
+                <div class="works-portfolio-item" data-info="graphic-design"><img src="img/works/graphic%20design/graphic-design10.jpg" alt=""></div>
+                <div class="works-portfolio-item" data-info="graphic-design"><img src="img/works/graphic%20design/graphic-design11.jpg" alt=""></div>
+                <div class="works-portfolio-item" data-info="graphic-design"><img src="img/works/graphic%20design/graphic-design12.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="landing-page"><img src="img/works/landing%20page/landing-page1.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="landing-page"><img src="img/works/landing%20page/landing-page2.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="landing-page"><img src="img/works/landing%20page/landing-page3.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="landing-page"><img src="img/works/landing%20page/landing-page4.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="landing-page"><img src="img/works/landing%20page/landing-page5.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="landing-page"><img src="img/works/landing%20page/landing-page6.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="landing-page"><img src="img/works/landing%20page/landing-page7.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="web-design"><img src="img/works/web%20design/web-design1.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="web-design"><img src="img/works/web%20design/web-design2.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="web-design"><img src="img/works/web%20design/web-design3.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="web-design"><img src="img/works/web%20design/web-design4.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="web-design"><img src="img/works/web%20design/web-design5.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="web-design"><img src="img/works/web%20design/web-design6.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="web-design"><img src="img/works/web%20design/web-design7.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="wordpress"><img src="img/works/wordpress/wordpress1.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="wordpress"><img src="img/works/wordpress/wordpress2.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="wordpress"><img src="img/works/wordpress/wordpress3.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="wordpress"><img src="img/works/wordpress/wordpress4.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="wordpress"><img src="img/works/wordpress/wordpress5.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="wordpress"><img src="img/works/wordpress/wordpress6.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="wordpress"><img src="img/works/wordpress/wordpress7.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="wordpress"><img src="img/works/wordpress/wordpress8.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="wordpress"><img src="img/works/wordpress/wordpress9.jpg" alt=""></div>
+                <div class="works-portfolio-item hidden" data-info="wordpress"><img src="img/works/wordpress/wordpress10.jpg" alt=""></div>
+            </div>
+            <div class="button-container">
+                <div class="loader-container hidden">
+                    <div class="loader"></div>
+                </div>
+                <a class="button green-background" href=""><img class="button-plus" src="img/general/button-plus.png" alt="">load more</a>
+            </div>
+        </div>
+    </section>
+    <section class="breaking-news" id="breaking-news">
+        <div class="container">
+            <h2 class="section-title gray-color">Breaking News</h2>
+            <ul id="news_block" class="news-tabs">
+                <li>
+                    <img src="img/services-people/news1.jpg" alt="">
+                    <div class="news-block-label">
+                        <p>12</p>
+                        <p>Feb</p>
+                    </div>
+                    <div class="content">
+                        <a class="i1" href="#"><span class="active">Amazing Image Post</span></a><br>
+                        <span class="by">By admin</span>
+                        <div class="line"></div>
+                        <a href="" class="com2">2 comment</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/services-people/news2.jpg" alt="">
+                    <div class="news-block-label">
+                        <p>12</p>
+                        <p>Feb</p>
+                    </div>
+                    <div class="content"><a class="i1" href="#"><span>Amazing Blog Post</span></a><br>
+                        <span class="by">By admin</span>
+                        <div class="line"></div>
+                        <a href="" class="com2">2 comment</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/services-people/news3.jpg" alt="">
+                    <div class="news-block-label">
+                        <p>12</p>
+                        <p>Feb</p>
+                    </div>
+                    <div class="content"><a class="i1" href="#"><span>Amazing Blog Post</span></a><br>
+                        <span class="by">By admin</span>
+                        <div class="line"></div>
+                        <a href="" class="com2">2 comment</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/services-people/news4.jpg" alt="">
+                    <div class="news-block-label">
+                        <p>12</p>
+                        <p>Feb</p>
+                    </div>
+                    <div class="content"><a class="i1" href="#"><span>Amazing Blog Post</span></a><br>
+                        <span class="by">By admin</span>
+                        <div class="line"></div>
+                        <a href="" class="com2">2 comment</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/services-people/news5.jpg" alt="">
+                    <div class="news-block-label">
+                        <p>12</p>
+                        <p>Feb</p>
+                    </div>
+                    <div class="content"><a class="i1" href="#"><span>Amazing Blog Post</span></a><br>
+                        <span class="by">By admin</span>
+                        <div class="line"></div>
+                        <a href="" class="com2">2 comment</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/services-people/news6.jpg" alt="">
+                    <div class="news-block-label">
+                        <p>12</p>
+                        <p>Feb</p>
+                    </div>
+                    <div class="content"><a class="i1" href="#"><span>Amazing Blog Post</span></a><br>
+                        <span class="by">By admin</span>
+                        <div class="line"></div>
+                        <a href="" class="com2">2 comment</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/services-people/news7.jpg" alt="">
+                    <div class="news-block-label">
+                        <p>12</p>
+                        <p>Feb</p>
+                    </div>
+                    <div class="content"><a class="i1" href="#"><span>Amazing Blog Post</span></a><br>
+                        <span class="by">By admin</span>
+                        <div class="line"></div>
+                        <a href="" class="com2">2 comment</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/services-people/news8.jpg" alt="">
+                    <div class="news-block-label">
+                        <p>12</p>
+                        <p>Feb</p>
+                    </div>
+                    <div class="content"><a class="i1" href=""><span>Amazing Blog Post</span></a><br>
+                        <span class="by">By admin</span>
+                        <div class="line"></div>
+                        <a href="" class="com2">2 comment</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="people-say-about" id="people">
+        <h2 class="section-title white-color">What People Say About theHam</h2>
+        <img src="img/services-people/quotes.png" alt="" class="logo1">
+        <div class="connected-carousels">
+            <div class="stage">
+                <div class="carousel carousel-stage">
+                    <ul>
+                        <li><p class="people-info">Integer1 dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</p>
+                            <p class="people_name">Hasan Ali1</p>
+                            <p class="peaple_prof">UX Designer1</p>
+                            <img src="img/services-people/people_larg_foto3.png" alt="ek-aanhanger" width="175" height="175"/></li>
+                        <li><p class="people-info">Integer2 dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</p>
+                            <p class="people_name">Hasan Ali2</p>
+                            <p class="peaple_prof">UX Designer1</p>
+                            <img src="img/services-people/people_foto2.png" alt="ek-artsen" width="175" height="175"/></li>
+                        <li><p class="people-info">Integer3 dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</p>
+                            <p class="people_name">Hasan Ali3</p>
+                            <p class="peaple_prof">UX Designer1</p>
+                            <img src="img/services-people/people_foto1.png" alt="ek-brandweer"  width="175" height="175"/></li>
+                        <li><p class="people-info">Integer4 dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</p>
+                            <p class="people_name">Hasan Ali4</p>
+                            <p class="peaple_prof">UX Designer1</p><img src="img/services-people/people_foto4.png" alt="ek-dommel"  width="175" height="175"/></li>
+                        <li><p class="people-info">Integer5 dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</p>
+                            <p class="people_name">Hasan Ali5</p>
+                            <p class="peaple_prof">UX Designer1</p><img src="img/services-people/people_foto1.png" alt="ek-brandweer"  width="175" height="175"/></li>
+                        <li><p class="people-info">Integer6 dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</p>
+                            <p class="people_name">Hasan Ali6</p>
+                            <p class="peaple_prof">UX Designer1</p><img src="img/services-people/people_larg_foto3.png" alt="ek-aanhanger" width="175" height="175"/></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navigation">
+                <a href="#" class="prev prev-navigation">&lsaquo;</a>
+                <div class="carousel carousel-navigation">
+                    <ul>
+                        <li><img src="img/services-people/people_foto3.png" alt="ek-aanhanger"  width="70" height="70" /></li>
+                        <li><img src="img/services-people/people_foto2.png" alt="ek-artsen"  width="70" height="70" /></li>
+                        <li> <img src="img/services-people/people_foto1.png" alt="ek-brandweer"  width="70" height="70" /></li>
+                        <li><img src="img/services-people/people_foto4.png" alt="ek-dommel"  width="70" height="70" /></li>
+                        <li><img src="img/services-people/people_foto1.png" alt="ek-brandweer"  width="70" height="70" /></li>
+                        <li><img src="img/services-people/people_foto3.png" alt="ek-aanhanger"  width="70" height="70" /></li>
+                    </ul>
+                </div>
+                <a href="#" class="next next-navigation">&rsaquo;</a>
+            </div>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title dark-gray-color">Gallery of best images</h2>
+            <div class="gallery-grid">
+                <img class="gallery-grid-item gallery-grid-item--width3 gallery-grid-item--height3" src="img/gallery/gallery1.jpg" />
+                <img class="gallery-grid-item gallery-grid-item--width3 gallery-grid-item--height4" src="img/gallery/gallery2.jpg" />
+                <img class="gallery-grid-item gallery-grid-item--width3 gallery-grid-item--height3" src="img/gallery/gallery3.jpg" />
+                <img class="gallery-grid-item gallery-grid-item--width3 gallery-grid-item--height3" src="img/gallery/gallery4.jpg" />
+                <img class="gallery-grid-item gallery-grid-item--width3 gallery-grid-item--height4" src="img/gallery/gallery5.jpg" />
+                <img class="gallery-grid-item gallery-grid-item--width3 gallery-grid-item--height3" src="img/gallery/gallery6.jpg" />
+                <img class="gallery-grid-item gallery-grid-item--width3 gallery-grid-item--height3" src="img/gallery/gallery7.jpg" />
+                <img class="gallery-grid-item gallery-grid-item--width2 gallery-grid-item--height2" src="img/gallery/gallery6.jpg" />
+                <img class="gallery-grid-item gallery-grid-item--width2 gallery-grid-item--height2" src="img/gallery/gallery4.jpg"/>
+                <img class="gallery-grid-item" src="img/gallery/gallery8.jpg"/>
+                <img class="gallery-grid-item" src="img/gallery/gallery9.jpg"/>
+                <img class="gallery-grid-item" src="img/gallery/gallery1.jpg"/>
+                <img class="gallery-grid-item" src="img/gallery/gallery10.jpg"/>
+                <img class="gallery-grid-item" src="img/gallery/gallery11.jpg"/>
+                <img class="gallery-grid-item" src="img/gallery/gallery12.jpg"/>
+                <img class="gallery-grid-item" src="img/gallery/gallery3.jpg"/>
+                <img class="gallery-grid-item" src="img/gallery/gallery13.jpg"/>
+                <img class="gallery-grid-item" src="img/gallery/gallery14.jpg"/>
+                <img class="gallery-grid-item gallery-grid-item--width3 gallery-grid-item--height3 hidden" src="img/gallery/gallery1.jpg" />
+                <img class="gallery-grid-item gallery-grid-item--width3 gallery-grid-item--height4 hidden" src="img/gallery/gallery2.jpg" />
+                <img class="gallery-grid-item gallery-grid-item--width3 gallery-grid-item--height3 hidden" src="img/gallery/gallery3.jpg" />
+                <img class="gallery-grid-item gallery-grid-item--width3 gallery-grid-item--height3 hidden" src="img/gallery/gallery4.jpg" />
+                <img class="gallery-grid-item gallery-grid-item--width3 gallery-grid-item--height4 hidden" src="img/gallery/gallery5.jpg" />
+                <img class="gallery-grid-item gallery-grid-item--width3 gallery-grid-item--height3 hidden" src="img/gallery/gallery6.jpg" />
+                <img class="gallery-grid-item gallery-grid-item--width3 gallery-grid-item--height3 hidden" src="img/gallery/gallery7.jpg" />
+                <img class="gallery-grid-item gallery-grid-item--width2 gallery-grid-item--height2 hidden" src="img/gallery/gallery6.jpg" />
+                <img class="gallery-grid-item gallery-grid-item--width2 gallery-grid-item--height2 hidden" src="img/gallery/gallery4.jpg" />
+                <img class="gallery-grid-item hidden" src="img/gallery/gallery8.jpg "/>
+                <img class="gallery-grid-item hidden" src="img/gallery/gallery9.jpg"/>
+                <img class="gallery-grid-item hidden" src="img/gallery/gallery1.jpg"/>
+                <img class="gallery-grid-item hidden" src="img/gallery/gallery10.jpg"/>
+                <img class="gallery-grid-item hidden" src="img/gallery/gallery11.jpg"/>
+                <img class="gallery-grid-item hidden" src="img/gallery/gallery12.jpg"/>
+                <img class="gallery-grid-item hidden" src="img/gallery/gallery3.jpg"/>
+                <img class="gallery-grid-item hidden" src="img/gallery/gallery13.jpg"/>
+                <img class="gallery-grid-item hidden" src="img/gallery/gallery14.jpg"/>
+            </div>
+            <div class="button-container">
+                <div class="loader-container hidden">
+                    <div class="loader"></div>
+                </div>
+                <a class="button green-background" href=""><img class="button-plus" src="img/general/button-plus.png" alt="">load more</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <p class="footer-text">&#169; Copyright 2015 <span class="green-color">theHam</span> | All Rights Reserved</p>
+        </div>
+    </footer>
+    <div class="modal-layer hidden">
+        <div class="modal-container">
+            <div class="modal">
+                <div class="modal-block">
+                    <h2 class="modal-title">Order your theme now!</h2>
+                    <form class="modal-form" action="" name="form">
+                        <input class="modal-form-input modal-field" type="email" name="email" placeholder="Your mail*"><span class="fas fa-at"></span>
+                        <input class="modal-form-input modal-field" type="password" name="password" placeholder="Your password*"><span class="fas fa-lock"></span>
+                        <input class="modal-form-button modal-field" type="submit" value="Order now">
+                        <div class="modal-form-bottom">
+                            <label class="modal-form-checkbox">
+                                <input class="checkbox-remember" type="checkbox" name="remember">
+                                <span class="checkbox-remember-custom"></span>
+                                <span class="checkbox-remember-text">Remember me</span>
+                            </label>
+                            <a class="modal-form-link" href="">forgot password?</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-delimiter">or</div>
+                <div class="modal-block">
+                    <h2 class="modal-title"><span class="green-color">Subscribe and get more options!</span></h2>
+                    <a class="modal-button modal-field facebook-button-background" href="#">
+                        <span class="fab fa-facebook-f modal-social-logo"></span>
+                        <span class="modal-button-text">Sign In with Facebook</span>
+                    </a>
+                    <a class="modal-button modal-field twitter-button-background" href="#">
+                        <span class="fab fa-twitter modal-social-logo"></span>
+                        <span class="modal-button-text">Sign In with Twitter</span>
+                    </a>
+                    <a class="modal-button modal-field google-button-background" href="#">
+                        <span class="fab fa-google modal-social-logo"></span>
+                        <span class="modal-button-text">Sign In with Google+</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
